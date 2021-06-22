@@ -7,6 +7,7 @@ target 'chat-app' do
 
   # Pods for chat-app
 pod 'PubNubSwift', '~> 3.0'
+pod 'MessageKit'
 
   target 'chat-appTests' do
     inherit! :search_paths
